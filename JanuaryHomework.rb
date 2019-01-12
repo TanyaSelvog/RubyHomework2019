@@ -1,4 +1,4 @@
-#Ruby homework
+#Ruby Notes and Studying for January 2019; Beginning Ruby: From Novice to Professional by Peter Cooper
 
 
 #January 1, 2019; creating 3 classes and 3 objects and create 3 methods and call 3 methods
@@ -134,4 +134,25 @@ end
 
 sparrow_lucyfur = Cat.new
 
+#create a method and call it
+
+class Cat 
+    def hiss
+        puts "hissssss!!"
+    end
+end
+
+sparrow_lucyfur.hiss
+#returns "hissssss!!"
+
+
+#January 12, 2019 Comparisons in Ruby
+
+x > y #greater than
+x < y #less than
+x == y #equal to
+x>=y #greater than or eqaual to
+x<=y #less than or equal to
+x<=>y #comparison; returns 0 if x and y are equal; returns 1 if x is higher; returns -1 if y is higher
+x !=y #not equal to
 
