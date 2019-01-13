@@ -156,3 +156,23 @@ x<=y #less than or equal to
 x<=>y #comparison; returns 0 if x and y are equal; returns 1 if x is higher; returns -1 if y is higher
 x !=y #not equal to
 
+#January 13, 2019 Floating Point numbers
+
+#any number w/o a floating point is an integer in Ruby
+
+puts 10/3
+#returns 3
+
+puts 10.0/3.0
+#returns 3.33333
+
+x = 10
+y = 3
+puts x.to_f/y.to_f
+#returns 3.33333
+
+puts 5.7.to_i
+#returns 5
+
+puts 9.98.to_i
+#returns 8
