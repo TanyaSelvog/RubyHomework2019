@@ -3,6 +3,8 @@
 #hash & array practice
 
 
+#hashes within hashes
+
 the_office = {
     'michael' => {
         'name' => 'Michael Scott',
@@ -48,3 +50,51 @@ p the_office.keys
 #listing the keys for michael
 p the_office['michael'].keys
 #returns ["name", "age", "gender", "hobbies"]
+
+
+
+#arrays within arrays
+
+the_office_nested_array = [
+    [
+        "Michael Scott",
+        45,
+        "male",
+        [
+            "improv",
+            "basketball",
+            "family"
+            ]
+    ],
+    [
+        "Angela Martin",
+        42,
+        "female",
+        [
+            "cats",
+            "religion",
+            "creepy baby photos"
+            ]
+    ],
+    [
+        "Jim Halpert",
+        33,
+        "male",
+        [
+            "traveling",
+            "jokes",
+            "movies"
+            
+        ]
+    ],
+    [
+        "Dwight Schrute",
+        35,
+        "male",
+        [
+            "bears",
+            "beets",
+            "Battlestar Galactica"
+        ]
+    ]
+]
