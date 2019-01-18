@@ -176,3 +176,50 @@ puts 5.7.to_i
 
 puts 9.98.to_i
 #returns 8
+
+
+#January 17, 2019 - flow control
+
+#elsif example
+fruit = "orange"
+if fruit == "orange"
+    color = "orange"
+elsif fruit = "lemon"
+    color = "yellow"
+elsif fruit = "blueberry"
+    color = "blue"
+else
+    color = "unknown"
+end
+
+
+#case example
+fruit = "orange"
+case fruit
+    when "orange"
+    color ="orange"
+    when "lemon"
+    color ="yellow"
+    when "blueberry"
+    color ="blue"
+    else
+    color ="unknown"
+    end
+
+#simpler Ruby case example
+fruit = "orange"
+color = case fruit
+    when "orange"
+    "orange"
+    when "lemon"
+    "yellow"
+    when "blueberry"
+    "blue"
+    Else
+    "unknown"
+    end
+    
+
+
+
+
