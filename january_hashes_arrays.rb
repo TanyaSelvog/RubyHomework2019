@@ -98,3 +98,25 @@ the_office_nested_array = [
         ]
     ]
 ]
+
+#accessing the data within the_office_nested_array
+
+puts the_office_nested_array[1]
+#output in list form: Angela Martin, 42, female, cats, religion, creepy baby photos
+
+puts the_office_nested_array[1][3]
+#output: cats, religion, creepy baby photos
+
+puts the_office_nested_array[2][2]
+#output: male
+
+
+#adding data to the_office_nested_array
+the_office_nested_array.push("Pam Beesley")
+
+#modifying the "Pam Beesley" element and adding more data
+the_office_nested_array[4] = ["Pam Beesley", 32, "female", ["art", "jokes", "kids"]]
+
+#adding an element to Pam's hobbies (and placing it at the end)
+the_office_nested_array[4][3].push("yogurt")
+#returns: art, jokes, kids, yogurt
