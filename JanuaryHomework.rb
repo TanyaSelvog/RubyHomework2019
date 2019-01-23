@@ -218,8 +218,15 @@ color = case fruit
     Else
     "unknown"
     end
-    
 
+
+
+#January 23, 2019
+
+#Time class in Ruby
+
+puts Time.now
+#output: 2019-01-23 12:21:59 -0800
 
 
 
