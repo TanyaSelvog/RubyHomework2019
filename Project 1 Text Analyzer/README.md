@@ -2,6 +2,8 @@
 
 What it will do: Analyze text for various patterns and statistics; print out results to the user
 
+Project 1: Text Analyzer runs on Ruby 
+
 Statistics analyzed will include: 
 * character count
 * line count
