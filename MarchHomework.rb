@@ -50,3 +50,8 @@ class Sheep < Animal
     end
 end
 
+farmAnimals = [Cow.new("Bessie"), Sheep.new("Sir Polymorph the VI"), Cow.new("Sparrow the 3rd")]
+farmAnimals.each do |farm|
+    puts farm.talk
+end
+
